@@ -13,8 +13,8 @@ struct kendaraan data[1] = {
 int main(){
     
     cout<<"\nPlat Nomor Kendaraan : "<<data[0].plat;
-    cout<<"\nTipe Kendaraan : "<<data[0].tipe;
-    cout<<"\nPemilik : "<<data[0].pemilik;
+    cout<<"\nJenis Kendaraan : "<<data[0].tipe;
+    cout<<"\nNama Pemilik : "<<data[0].pemilik;
     cout<<"\nAlamat : "<<data[0].alamat;
     cout<<"\nKota : "<<data[0].kota;
     cout<<endl<<endl;
