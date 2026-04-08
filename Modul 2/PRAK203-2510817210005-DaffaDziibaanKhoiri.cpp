@@ -17,7 +17,7 @@ void INSERT(){
         cout<<"Masukkan satu huruf : ";cin>>HURUF;
         R++;
         Q[R] = HURUF;
-        cout <<"Data '"<< HURUF << "' berhasil masuk ke Queue";
+        cout <<"Data '"<< HURUF << "' berhasil masuk ke Queue" << endl;
 
     }
 };
@@ -88,5 +88,5 @@ int main()
         getch();
         system("cls");
     }
-    while (PIL<4);
+    while (PIL<5);
 }
