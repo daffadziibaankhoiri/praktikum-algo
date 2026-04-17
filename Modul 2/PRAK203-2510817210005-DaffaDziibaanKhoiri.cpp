@@ -48,7 +48,7 @@ void Inisialisasi(){
 void RESET(){
     F = -1;
     R = -1;
-    cout<<"Queue telah di kosongkan";
+    cout<<"Queue telah di kosongkan"<< endl;
 };
 
 int main()
